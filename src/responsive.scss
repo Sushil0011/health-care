@@ -1,0 +1,859 @@
+@media screen and (max-width:1500px) {
+
+
+
+
+    .navbar {
+        // width: 70vw;
+        // margin: 0 auto;
+
+        .login {
+            .demo {
+                height: 50px;
+                width: 190px;
+            }
+        }
+    }
+
+    .home {
+        // width: 70%;
+        // margin: 0 auto;
+
+
+        .about {
+            width: 200%;
+        }
+
+        .card {
+            width: 80vw;
+
+            .leftside {
+                flex: 0.2;
+                width: 230px;
+
+
+                .innerLeft {
+                    width: 100%;
+
+                    .logo {
+                        right: 38px;
+                    }
+
+                    .name {
+                        .username {
+                            right: 32px;
+                        }
+
+                        .bar {
+                            width: 150px;
+
+                            >span {
+                                .darrow {
+                                    position: relative;
+                                    right: 20px;
+                                }
+                            }
+
+
+                        }
+                    }
+
+
+                    .bar_container {
+                        width: 150px;
+
+                        .bars {
+                            width: 80%;
+                        }
+                    }
+
+                    .verticleLine {
+                        right: 20px;
+                    }
+                }
+            }
+        }
+
+
+        .rightside {
+            width: 600px;
+
+            .horiLine {
+                width: 555px;
+            }
+
+            .btn_Wrapper {
+                width: 555px;
+                gap: 1rem;
+
+                .orderbtn {
+                    gap: 1rem;
+
+                    .btn {
+                        >button {
+                            width: 55px;
+                        }
+                    }
+
+                }
+
+                .filterbtn {
+                    gap: 1rem;
+                }
+            }
+        }
+
+        .gradient {
+            width: 105vw;
+
+        }
+
+
+        .team {
+            width: 90vw;
+            flex-direction: row;
+
+            .team_info{
+                gap: 2rem;
+            }
+        }
+
+        .trial_box {
+            width: 1242px;
+
+        }
+
+        .footer {
+
+            width: 100vw;
+        }
+
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .navbar {
+        padding: 0 3rem;
+
+        font: 300 10px "Poopins";
+
+
+        .logo_name {
+            font: 400 1.3rem "Poppins";
+        }
+
+        .logo {
+            width: 40px;
+            gap: 15px;
+
+            .logo_span {
+
+                // bottom:20px;
+                >img {
+                    width: 22px;
+                    position: relative;
+                    bottom: 10px;
+                }
+            }
+        }
+
+        .menus {
+            ul {
+                gap: 1rem;
+
+                li {
+                    font: 300 15px "Poopins";
+
+                    .downarrow {
+                        width: 15px;
+                        top: 32px;
+                    }
+                }
+            }
+        }
+
+
+        .login {
+            font-size: 15px;
+            .demo {
+                height: 34px;
+                width: 109px;
+            }
+        }
+
+    }
+
+    .home {
+        padding: 5rem 2rem;
+
+        .about {
+            height: 67px;
+
+            >p {
+                font: 500 30px "Poppins";
+            }
+        }
+
+        .para {
+            width: 546px;
+            font-size: 18px;
+        }
+
+
+        .card {
+            width: 90vw;
+            // bottom: 10px;
+            height: 594px;
+
+
+
+
+
+            .rightside{
+                .btn_Wrapper{
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 1rem;
+                }
+
+                .nameWrapper{
+
+                    gap: 10px;
+                    .title{
+                        width: 70vw;
+                        gap:9rem;
+                    }
+                }
+
+                .detail{
+                    width: 80vw;
+                    gap: 2rem;
+                }
+            }
+
+
+        }
+
+        .users_container {
+            width: 100vw;
+
+            .review {
+                width: 90vw;
+                gap: 6rem;
+
+                .user_card {
+                    width: 280px;
+                    height: 250px;
+
+
+                    .inner {
+                        width: 280px;
+                        height: 250px;
+
+                        .innerInfo {
+                            .star {
+                                width: 225px
+                            }
+                        }
+                    }
+                }
+
+                .user_info {
+                    .idea {
+                        width: 250px;
+                        font-size:32px;
+                    }
+                }
+
+            }
+
+
+            .tools {
+                width: 100vw;
+                gap: 3rem;
+
+                // margin-right: 440px;
+                // position: relative;
+                // right: 200px;/
+                .setting {
+
+                    display: none;
+
+                    >img {
+
+                        &:first-child {
+                            left: 986px;
+                            width: 87px;
+                        }
+
+                        &:last-child {
+                            left: 743px;
+                        }
+                    }
+                }
+
+                .tool_card {
+                    width: 280px;
+                    height: 250px;
+
+                    .inner {
+                        width: 280px;
+                        height: 250px;
+
+                        .innerInfo {
+                            .toolheader {
+                                width: 230px;
+                                padding: 0 10px;
+
+                                .circle {
+                                    width: 30px;
+                                    height: 30px;
+                                }
+
+                                .progress_bar {
+                                    .progress {
+                                        width: 140px;
+                                    }
+                                }
+                            }
+
+                            .chartbar {
+                                gap: 10px;
+                                height: 85px;
+                            }
+                        }
+                    }
+                }
+
+                .chatInfo {
+                    gap: 0;
+
+                    .para1 {
+                        width: 250px;
+                        font-size: 32px;
+                        line-height: 10px;
+                    }
+                }
+            }
+
+
+            .last_card {
+                width: 100vw;
+                gap: 1rem;
+
+
+
+                .lcard {
+                    width: 280px;
+                    height: 250px;
+
+
+                    .user1 {
+                        top: 117px;
+                    }
+
+                    .user2 {
+                        top: 147px;
+                        left: 293px;
+                        width: 40px;
+                    }
+
+                    .inner {
+                        width: 280px;
+                        height: 250px;
+
+                        .innerInfo {
+                            .chat {
+                                width: 200px;
+                                height: 70px;
+
+                                .symbol {
+                                    right: 184px;
+                                    top: 28px;
+                                }
+
+                                .bar-container {
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    .fbar {
+                                        width: 140px;
+                                        height: 9px;
+                                    }
+
+                                    .sbar {
+                                        width: 140px;
+                                        height: 9px;
+                                    }
+
+                                    .lbar {
+                                        width: 140px;
+                                        height: 9px;
+                                    }
+                                }
+                            }
+
+
+                            .chat2 {
+                                top: 37px;
+                                left: 6px;
+                                width: 200px;
+                                height: 70px;
+
+                                .symbol2 {
+                                    left: 28px;
+                                    top: 24px;
+                                }
+
+                                .bar-container {
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    .fbar {
+                                        left: 10px;
+                                        width: 140px;
+                                        height: 9px;
+                                    }
+
+                                    .sbar {
+                                        width: 140px;
+                                        height: 9px;
+                                    }
+
+                                    .lbar {
+                                        width: 140px;
+                                        height: 9px;
+                                        left: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+                .user_info {
+                    gap: 0px;
+
+                    .para1 {
+                        height: 130px;
+                        font-size: 32px;
+                    }
+                }
+            }
+
+
+          
+          
+          
+        }
+
+
+        .team {
+            
+flex-direction: column;
+height: 100%;
+padding: 20px 10px;
+gap: 12rem;
+
+            .team_info{
+                width:90%;
+                padding: 10px 70px;
+flex-direction: row;
+gap:2rem;
+
+                .para1{
+                    width: 400px;
+                font-size: 20px;
+                }
+                .para2{
+                    width: 400px;
+                    font-size: 20px;
+                }
+            }
+        }
+
+
+        .trial_box{
+            .trialinfo{
+                .para1{
+                    width: 580px;
+                    font-size: 20px;
+z-index: 99;
+                }
+                .para2{
+                    z-index: 99;
+                }
+            }
+            .imageWrapper{
+                .image{
+                    left: 248px;
+                    bottom: 247px;
+                }
+            }
+        }
+
+        .footer{
+            .footer_info{
+                padding: 10px 70px;
+                .three{
+                    display: none;
+                }
+
+                .fir{
+                    .logo{
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width:800px) {
+    .navbar{
+        padding: 0 10px;
+
+        .menus{
+            ul{
+                li{
+                    font-size: 10px;
+                }
+            }
+        }
+        .logo{
+            display: none;
+
+
+
+        }
+
+        .login{
+            gap: 1rem;
+            .demo{
+                height: 26px;
+                width: 88px;
+            }
+        }
+
+        .login{
+            font-size: 10px;
+        }
+    }
+
+
+    .home{
+
+
+        .about{
+            >p{
+                font-size: 15px;
+            }
+        }
+        .para{
+            width: 200px;
+            font-size:15px ;
+        }
+.gradient{
+    // display: none;
+    transform: unset;
+}
+.card{
+    width: 100vw;
+    border-radius: 0;
+
+    // flex-direction: column;
+
+    .leftside{
+        display: none;
+    }
+    .rightside{
+        .btn_Wrapper{
+            width: 100vw;
+            flex-direction: column;
+            gap: 10px;
+            align-items:flex-start;
+        }
+
+        .nameWrapper{
+            width: 80vw;
+            .title{
+                gap: 2rem;
+            }
+        }
+
+        .detail{
+            width: 0;
+            gap: 2rem;
+            .profile{
+                width: 100px;
+                gap: 1rem;
+                >span{
+                    width: 100px;
+                }
+            }
+            .time{
+                width: 50px;
+                font-size: 9px;
+                line-height:unset;
+                
+            }
+        }
+    }
+}
+
+
+.users_container{
+
+    width: 100vw;
+    padding: 0 10px;
+    // margin-top: 5px;
+    padding: 20px 0;
+    height: 100%;
+    .review{
+
+        flex-direction: column;
+        justify-content: unset;
+        gap: 1rem;
+        .user_info{
+.idea{
+    font-size: 20px;
+}
+        }
+    }
+
+    .tools{
+        margin-top: 85px;
+        flex-direction: column;
+
+        .tool_card{
+            margin-left: 42px;
+        }
+        .chartInfo{
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 47px;
+
+            // width: 100vw;
+            padding: 0 15px;
+            .para1{
+                font-size: 20px;
+                // width: 80vw;
+            }
+        }
+
+    }
+    .last_card{
+        width: 100vw;
+        padding: 0 5px;
+        margin-top: 170px;
+
+        flex-direction: column;
+        .user_info{
+            // width: 100vw;
+            padding:0 5px;
+            .para1{
+                font-size: 20px;
+            }
+        }
+
+    }
+}
+
+.team{
+    gap: 15rem;
+    // overflow-x: hidden;
+    .team_info{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        .para1{
+            width: 200px;
+            text-align: justify;
+        }
+        .para2{
+            width: 200px;
+        }
+    }
+
+    .web_container{
+        width: 87vw;
+        overflow: hidden;
+        .rightside{
+            height: 520px;
+
+
+            .bars{
+                justify-content: center;
+                gap: 1rem;
+                width: 100vw;
+            }
+            .horiLine{
+                // width: 270px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .btn_Wrapper{
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nameWrapper{
+                width: 90vw;
+
+                .title{
+                    gap:3rem;
+                }
+
+                .detail{
+                    gap:10px;
+                    .profile{
+                        gap: 5px;
+                        >span{
+                            font-size: 8px;
+                        }
+                    }
+
+                    .callLogo{
+                        gap: 4px;
+                        .time{
+                            font-size: 7px;
+                        }
+                    }
+                }
+
+                .detailWrapper{
+                    width: 279px;
+
+
+                .first_bar{
+                    top: 0;
+                    right: 0;
+                }
+                }
+            }
+        }
+    }
+}
+
+
+
+.trial_box{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .imageWrapper{
+        >img{
+            &:first-child{
+                display: none;
+            }
+            &:last-child{
+                display: none;
+            }
+        }
+
+        .image{
+            
+                left: -30px;
+                top: -83px;
+            
+        }
+    }
+
+    .trialinfo{
+        width: 100vw;
+        // padding: 0 10px;
+        gap: 4rem;
+        .para1{
+            width: 100vw;
+            padding: 0 10px;
+        }
+        .para2{
+            width: 100vw;
+            padding: 0 10px;
+        }
+    }
+}
+
+.footer{
+    width: 100vw;
+    .footer_info{
+        width: 100vw;
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 20px;
+        .fir{
+            width: 100vw;
+            padding: 0 20px;
+            .logo{
+                >span{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .sec{
+            width: 100vw;
+            padding: 0 20px;
+        }
+    }
+}
+
+    }
+}
+
+
+@media screen and (max-width:410px) {
+    .home{
+        .card{
+            .rightside{
+                .btn_Wrapper{
+                    .filterbtn{
+                        .btn_container{
+                            gap: 2px;
+                        }
+                    }
+                }
+
+                .horiLine{
+                    width: 100vw;
+                }
+
+                .nameWrapper
+                {
+                    width: 100vw;
+
+                    .detail{
+                        width: 100vw;
+
+                        .profile{
+                            >span{
+font-size: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
